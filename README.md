@@ -12,6 +12,15 @@ Este aplicativo Flutter apresenta um contador simples com uma interface de usuá
 - Interface de usuário amigável com contador e botão de incremento.
 - Atualização automática da interface de usuário conforme o estado é modificado.
 
+## Dependências
+
+As seguintes dependências e packages foram utilizados neste projeto:
+
+- [mobx](https://pub.dev/packages/mobx): Uma biblioteca de gerenciamento de estado que ajuda a tornar o código mais reativo e fácil de manter.
+- [flutter_mobx](https://pub.dev/packages/flutter_mobx): Um pacote que integra o MobX com o Flutter, permitindo que o estado reativo seja automaticamente refletido na interface de usuário.
+
+Certifique-se de que essas dependências estão listadas no seu arquivo `pubspec.yaml`.
+
 ## Instalação
 
 1. Certifique-se de ter o Flutter instalado em seu sistema. Se não tiver, siga as instruções em [flutter.dev](https://flutter.dev/docs/get-started/install) para instalá-lo.
@@ -33,15 +42,6 @@ cd projeto-flutter-mobx
 ```bash
 flutter run
 ```
-
-## Dependências
-
-As seguintes dependências e packages foram utilizados neste projeto:
-
-- [mobx](https://pub.dev/packages/mobx): Uma biblioteca de gerenciamento de estado que ajuda a tornar o código mais reativo e fácil de manter.
-- [flutter_mobx](https://pub.dev/packages/flutter_mobx): Um pacote que integra o MobX com o Flutter, permitindo que o estado reativo seja automaticamente refletido na interface de usuário.
-
-Certifique-se de que essas dependências estão listadas no seu arquivo `pubspec.yaml`.
 
 ## Licença
 
